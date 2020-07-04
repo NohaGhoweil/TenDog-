@@ -1,0 +1,157 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    
+}
+h1{
+    color: aliceblue;
+    
+    size: 3rem;
+    line-height: 1.5 ;
+}
+.container-fluid{
+    padding:3% 10% 7%;
+}
+/* Title image */
+.title-img{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+/* Navigation bar */
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'ubuntu';
+}
+/* Download-button */
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+    background-color: aliceblue;
+    position: relative;
+   
+}
+.feature-icon{
+    font-size: 4rem;
+    color: #ef8172;
+    line-height:15px;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+    
+}
+.row-item{
+    text-align: center;
+    padding: 5%;
+    font-family: 'ubuntu';
+}
+.row-item h3{
+    font-size: 1.5rem;
+    font-family:'Montserrat' ;   
+    padding-top: 15%;
+}
+.row-item p{
+    color: #8f8f8f;
+}
+
+
+/* Testimonials Section */
+#testimonials{
+    
+    text-align: center;
+    color: aliceblue;
+    background-color:#ef8172; ;
+}
+#testimonials h2{
+ font-family: 'Montserrat';   
+ font-size: 3rem;
+}
+.testimonial-img{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172; 
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-columns {
+    padding: 3% 2%;
+}
+#pricing p{
+    font-family: ubuntu;
+    color: #8f8f8f;
+}
+#pricing h3{
+    font-family:Helvetica, sans-serif;
+    font-weight: lighter;
+}
+/* Mediea Query */
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Cta section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Montserrat';
+}
+#cta h3{
+    padding: 3% 3%;
+}
+#cta button {
+font-family: 'ubuntu';
+}
+
+/* Footer */
+#footer{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'ubuntu';
+    margin: 5%;
+}
+#footer i{
+    padding: 3%;
+}
